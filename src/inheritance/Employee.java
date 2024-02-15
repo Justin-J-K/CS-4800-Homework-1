@@ -34,4 +34,9 @@ public class Employee {
     public void setSocialSecurityNumber(String socialSecurityNumber) {
         this.socialSecurityNumber = socialSecurityNumber;
     }
+
+    @Override
+    public String toString() {
+        return firstName + " " + lastName + " with SSN of " + socialSecurityNumber;
+    }
 }

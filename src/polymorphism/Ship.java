@@ -26,6 +26,6 @@ public class Ship {
     }
 
     public void print() {
-        System.out.printf("Ship \"%s\" built in %s\n", name, yearBuilt);
+        System.out.printf("Ship \"%s\" was built in %s\n", name, yearBuilt);
     }
 }

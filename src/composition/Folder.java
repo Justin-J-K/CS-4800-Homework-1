@@ -8,7 +8,8 @@ public class Folder {
     private List<File> files;
     private List<Folder> folders;
 
-    public Folder() {
+    public Folder(String name) {
+        this.name = name;
         this.files = new ArrayList<>();
         this.folders = new ArrayList<>();
     }
@@ -19,6 +20,22 @@ public class Folder {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public void createFile(String filename) {
+
+    }
+
+    public void deleteFile(String filename) {
+
+    }
+
+    public void createFolder(String folderName) {
+
+    }
+
+    public void deleteFolder(String folderName) {
+
     }
 
     public void print() {

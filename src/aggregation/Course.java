@@ -36,6 +36,8 @@ public class Course {
     }
 
     public void print() {
-
+        System.out.printf("Course %s instructed by %s %s has the textbook %s by %s\n",
+                name, instructor.getFirstName(), instructor.getLastName(), textbook.getTitle(),
+                textbook.getAuthor());
     }
 }

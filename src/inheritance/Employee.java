@@ -3,9 +3,9 @@ package inheritance;
 public class Employee {
     private String firstName;
     private String lastName;
-    private int socialSecurityNumber;
+    private String socialSecurityNumber;
 
-    public Employee(String firstName, String lastName, int socialSecurityNumber) {
+    public Employee(String firstName, String lastName, String socialSecurityNumber) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurityNumber = socialSecurityNumber;
@@ -27,11 +27,11 @@ public class Employee {
         this.lastName = lastName;
     }
 
-    public int getSocialSecurityNumber() {
+    public String getSocialSecurityNumber() {
         return socialSecurityNumber;
     }
 
-    public void setSocialSecurityNumber(int socialSecurityNumber) {
+    public void setSocialSecurityNumber(String socialSecurityNumber) {
         this.socialSecurityNumber = socialSecurityNumber;
     }
 }

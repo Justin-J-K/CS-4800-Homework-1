@@ -3,7 +3,7 @@ package inheritance;
 public class BaseEmployee extends Employee {
     private double baseSalary;
 
-    public BaseEmployee(String firstName, String lastName, int socialSecurityNumber, double baseSalary) {
+    public BaseEmployee(String firstName, String lastName, String socialSecurityNumber, double baseSalary) {
         super(firstName, lastName, socialSecurityNumber);
         this.baseSalary = baseSalary;
     }

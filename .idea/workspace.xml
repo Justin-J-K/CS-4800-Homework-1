@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3971157d-bcc7-4a1c-a9ae-46b6d95cde15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/aggregation2/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/aggregation2/CourseDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/composition/FolderDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composition/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/composition/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/composition/Folder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/composition/Folder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +25,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2cPq629AtwoFsNZuda4BKYSdaZE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -39,6 +40,7 @@
   "keyToString": {
     "Application.CourseDriver.executor": "Run",
     "Application.EmployeeDriver.executor": "Run",
+    "Application.FolderDriver.executor": "Run",
     "Application.ShipDriver.executor": "Run",
     "Application.aggregation2.CourseDriver.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -61,7 +63,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CourseDriver">
+  <component name="RunManager" selected="Application.FolderDriver">
     <configuration name="CourseDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aggregation.CourseDriver" />
       <module name="CS_4800_HW1" />
@@ -81,6 +83,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FolderDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composition.FolderDriver" />
+      <module name="CS_4800_HW1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="composition.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FolderDriver" />
         <item itemvalue="Application.CourseDriver" />
         <item itemvalue="Application.aggregation2.CourseDriver" />
         <item itemvalue="Application.ShipDriver" />
@@ -138,7 +154,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1708023382742</updated>
-      <workItem from="1708023384282" duration="6755000" />
+      <workItem from="1708023384282" duration="7589000" />
+      <workItem from="1708130249314" duration="2403000" />
     </task>
     <servers />
   </component>

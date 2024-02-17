@@ -62,7 +62,7 @@ public class Course {
     }
 
     public void print() {
-        System.out.printf("Course %s instructed by %s %s and %s %s has the textbooks %s by %s and %s by %s\n",
+        System.out.printf("Course %s instructed by %s %s and %s %s has the textbooks\n  %s by %s and\n  %s by %s\n",
                 name, firstInstructor.getFirstName(), firstInstructor.getLastName(), secondInstructor.getFirstName(),
                 secondInstructor.getLastName(), firstTextbook.getTitle(), firstTextbook.getAuthor(), secondTextbook.getTitle(),
                 secondTextbook.getAuthor());
